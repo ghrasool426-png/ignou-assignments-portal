@@ -1,0 +1,35 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f6f8;
+}
+
+.main-header{
+  background:#0b5ed7;
+  color:white;
+  text-align:center;
+  padding:30px 10px;
+}
+
+.programme-section{
+  padding:30px;
+}
+
+.programme-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+.programme-card{
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  text-align:center;
+  cursor:pointer;
+  box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.programme-card:hover{
+  transform:translateY(-5px);
+}
